@@ -24,10 +24,10 @@ var showContent = function(c_id){
         document.getElementById(c_id).style.display="block"; 
     },4000); 
     
-    setTimeout(changeBgColor,10000);//call changeBgColor function after 5 seconds
+    setTimeout(changeBgColor,10000);//call changeBgColor anonomous  function after 6 seconds
 }
 
-//function expression 
+//function expression to change background color randomly
 var changeBgColor = function(){
     document.body.style.backgroundColor = getRandomColor();
 }
